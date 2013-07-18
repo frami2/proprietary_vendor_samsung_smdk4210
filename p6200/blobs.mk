@@ -21,7 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/p6200/props/system/lib/libril.so:system/lib/libril.so \
     vendor/samsung/p6200/props/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/p6200/props/system/lib/libsecril-client.so:system/lib/libsecril-client.so \
-    vendor/samsung/p6200/props/system/lib/hw/sensors.smdk4210.so:system/lib/hw/sensors.exynos4.so \
+    vendor/samsung/p6200/props/system/lib/hw/sensors.smdk4210.so:system/lib/hw/sensors.smdk4210.so \
     vendor/samsung/p6200/props/system/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so \
     vendor/samsung/p6200/props/system/bin/gpsd:system/bin/gpsd \
 
