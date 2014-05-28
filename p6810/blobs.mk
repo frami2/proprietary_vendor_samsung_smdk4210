@@ -22,6 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/p6810/props/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/p6810/props/system/lib/libsec-ril-apalone.so:system/lib/libsec-ril-apalone.so \
     vendor/samsung/p6810/props/system/lib/hw/sensors.smdk4210.so:system/lib/hw/sensors.smdk4210.so \
-    vendor/samsung/p6810/props/system/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so \
+    vendor/samsung/p6210/props/system/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/p6810/props/system/bin/gpsd:system/bin/gpsd \
 

@@ -21,6 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/t869/props/system/lib/libril.so:system/lib/libril.so \
     vendor/samsung/t869/props/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/t869/props/system/lib/hw/sensors.exynos4.so:system/lib/hw/sensors.exynos4.so \
-    vendor/samsung/t869/props/system/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so \
+    vendor/samsung/p6210/props/system/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/t869/props/system/bin/gpsd:system/bin/gpsd \
 
