@@ -18,7 +18,6 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/smdk4210-tab/props/system/lib/libhdmi.so:system/lib/libhdmi.so \
     vendor/samsung/smdk4210-tab/props/vendor/firmware/mfc_fw.bin:root/vendor/firmware/mfc_fw.bin \
-    vendor/samsung/smdk4210-tab/props/system/etc/firmware/ath6k/AR6003/hw2.1.1/fw-3.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/fw-3.bin \
     vendor/samsung/smdk4210-tab/props/system/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/smdk4210-tab/props/system/lib/libmllite.so:system/lib/libmllite.so \
     vendor/samsung/smdk4210-tab/props/system/lib/libwvm.so:system/lib/libwvm.so \
@@ -40,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/smdk4210-tab/props/system/lib/libtvout_jni.so:system/lib/libtvout_jni.so \
     vendor/samsung/smdk4210-tab/props/system/etc/firmware/ath6k/AR6003/hw2.1.1/bdata.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/bdata.bin \
     vendor/samsung/smdk4210-tab/props/system/etc/firmware/ath6k/AR6003/hw2.1.1/athtcmd_ram.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/athtcmd_ram.bin \
+    vendor/samsung/smdk4210-tab/props/system/etc/firmware/ath6k/AR6003/hw2.1.1/fw-4.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/fw-4.bin \
     vendor/samsung/smdk4210-tab/props/system/lib/libhdmiclient.so:system/lib/libhdmiclient.so \
     vendor/samsung/smdk4210-tab/props/system/lib/libUMP.so:system/lib/libUMP.so \
     vendor/samsung/smdk4210-tab/props/system/lib/libfimc.so:system/lib/libfimc.so \
