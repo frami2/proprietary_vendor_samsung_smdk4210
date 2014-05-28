@@ -17,7 +17,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/p6210/props/system/bin/rild:system/bin/rild \
-    vendor/samsung/p6210/props/system/lib/hw/vendor-camera.exynos4.so:system/lib/hw/vendor-camera.exynos4.so \
     vendor/samsung/p6210/props/system/lib/libril.so:system/lib/libril.so \
     vendor/samsung/p6210/props/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/p6210/props/system/lib/libsec-ril-apalone.so:system/lib/libsec-ril-apalone.so \

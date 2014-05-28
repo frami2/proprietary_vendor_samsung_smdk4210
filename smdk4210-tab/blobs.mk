@@ -46,4 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/smdk4210-tab/props/system/lib/libtvoutinterface.so:system/lib/libtvoutinterface.so \
     vendor/samsung/smdk4210-tab/props/system/bin/bintvoutservice:system/bin/bintvoutservice \
     vendor/samsung/smdk4210-tab/props/system/lib/libMali.so:system/lib/libMali.so \
+    vendor/samsung/smdk4210-tab/props/system/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
+    vendor/samsung/smdk4210-tab/props/system/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
 

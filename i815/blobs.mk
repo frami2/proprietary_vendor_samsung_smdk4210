@@ -17,7 +17,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/i815/props/system/lib/hw/sensors.exynos4.so:system/lib/hw/sensors.exynos4.so \
-    vendor/samsung/i815/props/system/lib/hw/vendor-camera.exynos4.so:system/lib/hw/vendor-camera.exynos4.so \
     vendor/samsung/i815/props/system/lib/libsec-ril_lte.so:system/lib/libsec-ril_lte.so \
     vendor/samsung/i815/props/system/vendor/etc/sirfgps.conf:system/vendor/etc/sirfgps.conf \
     vendor/samsung/i815/props/system/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so \
