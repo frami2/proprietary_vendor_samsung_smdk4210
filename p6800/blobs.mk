@@ -19,8 +19,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/p6800/props/system/bin/gpsd:system/bin/gpsd \
     vendor/samsung/p6800/props/system/lib/hw/sensors.smdk4210.so:system/lib/hw/sensors.smdk4210.so \
     vendor/samsung/p6800/props/system/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/samsung/p6800/props/system/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/p6800/props/system/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/p6800/props/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/p6800/props/system/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
+    vendor/samsung/p6800/props/system/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/p6800/props/sbin/cbd:root/sbin/cbd
 
