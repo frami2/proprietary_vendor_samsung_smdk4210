@@ -27,6 +27,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/smdk4210-tab/props/system/etc/firmware/ath6k/AR6003/hw2.1.1/bdata.tcmd.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/bdata.tcmd.bin \
     vendor/samsung/smdk4210-tab/props/system/etc/firmware/ath6k/AR6003/hw2.1.1/fw-4.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/fw-4.bin \
 
+# hostapd
+PRODUCT_COPY_FILES += \
+    vendor/samsung/smdk4210-tab/props/system/bin/hostapd:system/bin/hostapd \
+    vendor/samsung/smdk4210-tab/props/system/bin/hostapd_cli:system/bin/hostapd_cli
+
 # graphic blobs
 PRODUCT_COPY_FILES += \
     vendor/samsung/smdk4210-tab/props/system/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
