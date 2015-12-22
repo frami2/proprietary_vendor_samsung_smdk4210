@@ -32,34 +32,43 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/smdk4210-tab/props/system/bin/hostapd:system/bin/hostapd \
     vendor/samsung/smdk4210-tab/props/system/bin/hostapd_cli:system/bin/hostapd_cli
 
-# graphic blobs
+# Mali blobs
 PRODUCT_COPY_FILES += \
-    vendor/samsung/smdk4210-tab/props/system/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/smdk4210-tab/props/system/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
     vendor/samsung/smdk4210-tab/props/system/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
     vendor/samsung/smdk4210-tab/props/system/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
-    vendor/samsung/smdk4210-tab/props/system/lib/libhdmi.so:system/lib/libhdmi.so \
-    vendor/samsung/smdk4210-tab/props/system/lib/libhdmiclient.so:system/lib/libhdmiclient.so \
     vendor/samsung/smdk4210-tab/props/system/lib/libMali.so:system/lib/libMali.so \
-    vendor/samsung/smdk4210-tab/props/system/lib/libTVOut.so:system/lib/libTVOut.so \
-    vendor/samsung/smdk4210-tab/props/system/lib/libtvout_jni.so:system/lib/libtvout_jni.so \
+    vendor/samsung/smdk4210-tab/props/system/lib/libUMP.so:system/lib/libUMP.so
+
+# HDMI blobs
+PRODUCT_COPY_FILES += \
+    vendor/samsung/smdk4210-tab/props/system/bin/bintvoutservice:system/bin/bintvoutservice \
     vendor/samsung/smdk4210-tab/props/system/lib/libtvoutservice.so:system/lib/libtvoutservice.so \
     vendor/samsung/smdk4210-tab/props/system/lib/libtvoutinterface.so:system/lib/libtvoutinterface.so \
-    vendor/samsung/smdk4210-tab/props/system/lib/libUMP.so:system/lib/libUMP.so \
+    vendor/samsung/smdk4210-tab/props/system/lib/libcec.so:system/lib/libcec.so \
+    vendor/samsung/smdk4210-tab/props/system/lib/libddc.so:system/lib/libddc.so \
+    vendor/samsung/smdk4210-tab/props/system/lib/libedid.so:system/lib/libedid.so \
+    vendor/samsung/smdk4210-tab/props/system/lib/libhdmi.so:system/lib/libhdmi.so \
+    vendor/samsung/smdk4210-tab/props/system/lib/libhdmiclient.so:system/lib/libhdmiclient.so \
+    vendor/samsung/smdk4210-tab/props/system/lib/libTVOut.so:system/lib/libTVOut.so \
+    vendor/samsung/smdk4210-tab/props/system/lib/libtvout_jni.so:system/lib/libtvout_jni.so \
+
+# drm blobs
+PRODUCT_COPY_FILES += \
+    vendor/samsung/smdk4210-tab/props/system/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
+    vendor/samsung/smdk4210-tab/props/system/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
+    vendor/samsung/smdk4210-tab/props/system/lib/libwvm.so:system/lib/libwvm.so \
+    vendor/samsung/smdk4210-tab/props/system/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
+    vendor/samsung/smdk4210-tab/props/system/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
 
 # misc. blobs
 PRODUCT_COPY_FILES += \
     vendor/samsung/smdk4210-tab/props/system/lib/libakm.so:system/lib/libakm.so \
     vendor/samsung/smdk4210-tab/props/system/lib/libbt-aptx-4.0.3.so:system/lib/libbt-aptx.so \
-    vendor/samsung/smdk4210-tab/props/system/lib/libcec.so:system/lib/libcec.so \
-    vendor/samsung/smdk4210-tab/props/system/lib/libddc.so:system/lib/libddc.so \
-    vendor/samsung/smdk4210-tab/props/system/lib/libedid.so:system/lib/libedid.so \
     vendor/samsung/smdk4210-tab/props/system/lib/libmllite.so:system/lib/libmllite.so \
     vendor/samsung/smdk4210-tab/props/system/lib/libmlplatform.so:system/lib/libmlplatform.so \
     vendor/samsung/smdk4210-tab/props/system/lib/libmpl.so:system/lib/libmpl.so \
-    vendor/samsung/smdk4210-tab/props/system/lib/libwvm.so:system/lib/libwvm.so \
-    vendor/samsung/smdk4210-tab/props/system/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
-    vendor/samsung/smdk4210-tab/props/system/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
     vendor/samsung/smdk4210-tab/props/system/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/smdk4210-tab/props/vendor/firmware/mfc_fw.bin:root/vendor/firmware/mfc_fw.bin \
+    vendor/samsung/smdk4210-tab/props/vendor/firmware/mfc_fw.bin:root/vendor/firmware/mfc_fw.bin
+
 
