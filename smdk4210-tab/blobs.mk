@@ -61,8 +61,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/smdk4210-tab/props/system/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/smdk4210-tab/props/system/lib/libwvm.so:system/lib/libwvm.so \
     vendor/samsung/smdk4210-tab/props/system/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/samsung/smdk4210-tab/props/system/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/samsung/smdk4210-tab/props/system/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/samsung/smdk4210-tab/props/system/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/samsung/smdk4210-tab/props/system/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/samsung/smdk4210-tab/props/system/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
 
 # misc. blobs
