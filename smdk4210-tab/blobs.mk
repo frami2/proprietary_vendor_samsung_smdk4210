@@ -58,6 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/smdk4210-tab/props/system/lib/libMcClient.so:system/lib/libMcClient.so \
     vendor/samsung/smdk4210-tab/props/system/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
     vendor/samsung/smdk4210-tab/props/system/lib/libMcVersion.so:system/lib/libMcVersion.so \
+    vendor/samsung/smdk4210-tab/props/system/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/smdk4210-tab/props/system/lib/libwvm.so:system/lib/libwvm.so \
     vendor/samsung/smdk4210-tab/props/system/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/smdk4210-tab/props/system/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
