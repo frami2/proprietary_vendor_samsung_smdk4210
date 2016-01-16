@@ -73,6 +73,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/smdk4210-tab/props/system/lib/libmlplatform.so:system/lib/libmlplatform.so \
     vendor/samsung/smdk4210-tab/props/system/lib/libmpl.so:system/lib/libmpl.so \
     vendor/samsung/smdk4210-tab/props/system/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
+    vendor/samsung/smdk4210-tab/props/system/lib/libstlport.so:system/lib/libstlport.so \
     vendor/samsung/smdk4210-tab/props/vendor/firmware/mfc_fw.bin:root/vendor/firmware/mfc_fw.bin
 
 
