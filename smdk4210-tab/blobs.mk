@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
 
 # graphic blobs
 PRODUCT_COPY_FILES += \
-    vendor/samsung/smdk4210-tab/props/system/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/smdk4210-tab/props/system/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
     vendor/samsung/smdk4210-tab/props/system/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
     vendor/samsung/smdk4210-tab/props/system/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
@@ -57,9 +56,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/smdk4210-tab/props/system/lib/libmllite.so:system/lib/libmllite.so \
     vendor/samsung/smdk4210-tab/props/system/lib/libmlplatform.so:system/lib/libmlplatform.so \
     vendor/samsung/smdk4210-tab/props/system/lib/libmpl.so:system/lib/libmpl.so \
-    vendor/samsung/smdk4210-tab/props/system/lib/libwvm.so:system/lib/libwvm.so \
-    vendor/samsung/smdk4210-tab/props/system/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
-    vendor/samsung/smdk4210-tab/props/system/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
     vendor/samsung/smdk4210-tab/props/system/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/smdk4210-tab/props/vendor/firmware/mfc_fw.bin:root/vendor/firmware/mfc_fw.bin \
+    vendor/samsung/smdk4210-tab/props/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
+
+# DRM blobs
+PRODUCT_COPY_FILES += \
+    vendor/samsung/smdk4210-tab/props/system/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
+    vendor/samsung/smdk4210-tab/props/system/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/samsung/smdk4210-tab/props/system/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/samsung/smdk4210-tab/props/system/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/samsung/smdk4210-tab/props/system/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+
 
